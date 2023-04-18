@@ -1,0 +1,131 @@
+@use 'global/variables' as v;
+
+.product{
+    background: url('/img/bkproduct.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__h3{
+        font-size: 3.6rem;
+        font-family: v.$bebas;
+        background: linear-gradient(112.76deg, #FFFFFF 20.6%, rgba(240, 240, 240, 0.9) 72.04%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-transform: uppercase;
+        margin-top: 8rem;
+
+        @media (min-width: 1200px){
+            font-size: 6.4rem;
+        }
+    }
+
+    &__p{
+        width: 80%;
+        font-size: 1.2rem;
+        font-family: v.$inter;
+        font-weight: 500;
+        color: v.$greyC;
+        text-align: center;
+        margin-top: 1.5rem;
+
+        &--text{
+            width: 60%;
+
+            @media (min-width: 1024px){
+                width: 40%;
+            }
+        }
+
+        @media (min-width: 1200px){
+            font-size: 1.6rem;
+        }
+    }
+
+    &__boxes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 5rem;
+
+        @media (min-width: 1024px){
+            flex-direction: row;
+            gap: 2rem;
+        }
+    }
+
+    &__box{
+        width: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 25px;
+        border: 1px solid white;
+        background-color: v.$bkBox;
+
+        @media (min-width: 1024px){
+            margin-bottom: 5rem;
+        }
+
+        @media (min-width: 1300px){
+            width: 40rem;
+            margin-bottom: 10rem;
+        }
+
+        &--ult{
+            margin-bottom: 5rem;
+
+            @media (min-width: 1024px){
+                margin-bottom: 5rem;
+            }
+
+            @media (min-width: 1300px){
+                margin-bottom: 10rem;
+            }
+        }
+    }
+
+    &__img{
+        margin-top: 2rem;
+    }
+
+    &__h4{
+        font-size: 1.8rem;
+        font-family: v.$inter;
+        font-weight: 600;
+        color: v.$white;
+        margin: 1.5rem 0;
+
+        @media (min-width: 1200px){
+            font-size: 2.4rem;
+            text-align: center;
+        }
+    }
+
+    &__a{
+        color: v.$white;
+        font-size: 1.2rem;
+        font-family: v.$inter;
+        font-weight: 500;
+        padding: 1.2rem 4.6rem;
+        text-transform: uppercase;
+        background: linear-gradient(45deg ,v.$pinkButton 14.89%, v.$blueButton 85.85%);
+        border-radius: 20px 30px 30px 5px;
+        margin: 2rem 0 3rem 0;
+
+        @media (min-width: 1200px){
+            font-size: 1.6rem;
+        }
+    }
+}
