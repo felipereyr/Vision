@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Montserrat:wght@900&display=swap");
 /*Colors*/
 .home {
-  background: url("./img/bkhome.svg");
+  background: url("../img/bkhome.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@
 }
 
 .product {
-  background: url("./img/bkproduct.svg");
+  background: url("../img/bkproduct.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -369,7 +369,7 @@
 }
 
 .roadmap {
-  background: url("./img/bkroadmap.svg");
+  background: url("../img/bkroadmap.svg");
   background-size: cover;
   background-position: center center;
   min-height: 85rem;
@@ -391,7 +391,7 @@
 }
 
 .vs {
-  background: url("./img/bksale.svg");
+  background: url("../img/bksale.svg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
