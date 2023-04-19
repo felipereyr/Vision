@@ -14,7 +14,7 @@ Page made from an already given design, made in figma. I converted it to html an
     
  Felipe Rey
 
-* [![portfolio](https://felipereyr.github.io/Portfolio/)
+* [portfolio](https://felipereyr.github.io/Portfolio/)
 
 * [Linkedin](https://www.linkedin.com/in/felipe-r-408406250/)
 
