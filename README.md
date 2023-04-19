@@ -14,7 +14,7 @@ Page made from an already given design, made in figma. I converted it to html an
     
  Felipe Rey
 
-* [Portfolio](https://katherineoelsner.com/)
+* [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://felipereyr.github.io/Portfolio/)
 
 * [Linkedin](https://www.linkedin.com/in/felipe-r-408406250/)
 
